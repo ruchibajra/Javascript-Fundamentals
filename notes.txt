@@ -1,0 +1,41 @@
+1. Operators in JS
+
+A. Arithmetic Operators: + - % / 
+    - modulas (remainder) = a%b= 5%2 = 1
+    - exponentiation a**b = 5**2= 5^2 =25
+    - increment = a++ (post) 
+                = ++a (pre)
+    - decrement = a--
+                = --a
+
+B. Assignment Operators: = += -= %= **=
+
+c. Comparison Operators: >, <, >=, <=
+    -Equal to ==
+    -Not equal to !=
+    -Equal to & type ===
+    -Not equal to & type !==
+
+D. Logical Operators: && || !
+    - logical AND
+    - logical OR
+    - logical NOT
+
+E. Ternary Operators: compact version of if else
+    -> takes three operands a b and c
+    -> a? b:c 
+    -> condition? true output : false output -> a is condition, if true print b else print c
+    
+    Example:
+    let age = 25;
+
+    let result = age >=18 ? "adult" : "not adult";
+    console.log(result); //adult
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Conditional Statements - implement some conditions in the code
+
+A. if Statement
+B. if-else Statement
+C. else-if Statement
+D. switch Statement
